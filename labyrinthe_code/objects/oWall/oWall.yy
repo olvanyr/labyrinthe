@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "oWall",
     "eventList": [
-        
+        {
+            "id": "5d2693ea-5e35-4892-8b25-0186314e85d0",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "812b0707-630d-474d-b642-2dc742aee0de",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "7373a88b-82d1-4c25-a54f-86ad2e30871b"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -54,5 +63,5 @@
     "properties": null,
     "solid": true,
     "spriteId": "1b1003d8-9ef3-4363-8c86-a1e03b7386c2",
-    "visible": true
+    "visible": false
 }

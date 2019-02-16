@@ -38,3 +38,6 @@ if input.left && input.down
 {
 	sprite_index = sBoat_diagonally_up;
 }
+
+show_debug_message(y);
+show_debug_message(x);
