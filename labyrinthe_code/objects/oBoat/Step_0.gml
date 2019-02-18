@@ -39,5 +39,14 @@ if input.left && input.down
 	sprite_index = sBoat_diagonally_up;
 }
 
-show_debug_message(y);
-show_debug_message(x);
+xpos = x/room_width;
+ypos = y/room_height;
+
+if(layer_exists("Backgrounds_2"))
+{
+		layer_x("Backgrounds_2", lerp(0,room_width-sprite_get_width(sB),xpos));
+}
+
+show_debug_message(lerp(0,room_width-sprite_get_width(sB),xpos));
+show_debug_message(string( x) + "boat");
+
