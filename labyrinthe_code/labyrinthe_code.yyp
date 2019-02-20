@@ -111,10 +111,26 @@
             }
         },
         {
+            "Key": "4dd51755-0ac5-4b0f-8e96-5613cb3c10f1",
+            "Value": {
+                "id": "554f492e-dc8e-4074-b128-14dcde7ece28",
+                "resourcePath": "sprites\\sCalque_B\\sCalque_B.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "597afe0f-959c-4930-bda2-5b488f70be73",
             "Value": {
                 "id": "3684ff57-301f-4650-aa2f-5a41592fea7a",
                 "resourcePath": "sprites\\sBoat_diagonally_up\\sBoat_diagonally_up.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6eb67946-4617-44bd-9ac9-72ae57ae6fcc",
+            "Value": {
+                "id": "0c77d5f6-a858-4077-ac1e-c6496bbc0dbb",
+                "resourcePath": "sprites\\sCalque_C\\sCalque_C.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -207,6 +223,14 @@
             }
         },
         {
+            "Key": "ad519a9e-d260-45c8-a3df-c1c23c9624a6",
+            "Value": {
+                "id": "a686373d-061d-4821-bd2f-158283687278",
+                "resourcePath": "sprites\\sCalque_A\\sCalque_A.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b1ef6339-1bb9-4450-8c39-0c42aa48fe29",
             "Value": {
                 "id": "d51893ef-264f-473e-be94-e5d0a8277d08",
@@ -271,27 +295,11 @@
             }
         },
         {
-            "Key": "d992d514-4870-48cf-b7bd-f135c62af163",
-            "Value": {
-                "id": "21b63de5-5d08-41d7-bbf9-c9de5ed2b807",
-                "resourcePath": "sprites\\sCalque_A\\sCalque_A.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "df61a92c-75d7-4656-9222-43f9968c2ea9",
             "Value": {
                 "id": "82de1a28-81d7-4226-95cb-0054f7c4bc00",
                 "resourcePath": "views\\df61a92c-75d7-4656-9222-43f9968c2ea9.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "e0528911-2918-4638-b74a-7cc483d2b4db",
-            "Value": {
-                "id": "94bbb307-7117-4a64-9622-1dd1e8a5c040",
-                "resourcePath": "sprites\\sCalque_B\\sCalque_B.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -308,14 +316,6 @@
                 "id": "a58b0555-bcff-4f80-a8d4-af8df6664d46",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
-            }
-        },
-        {
-            "Key": "fafed782-65a3-4c2d-bd6c-d95271c53a61",
-            "Value": {
-                "id": "af29edcb-6972-4cf2-9be1-ea2fdbea1b9a",
-                "resourcePath": "sprites\\sCalque_C\\sCalque_C.yy",
-                "resourceType": "GMSprite"
             }
         }
     ],
