@@ -7,3 +7,6 @@ xTo = xstart;
 yTo = ystart;
 
 follow = oBoat;
+
+show_debug_message(camera_get_view_width(cam));
+show_debug_message(camera_get_view_height(cam));

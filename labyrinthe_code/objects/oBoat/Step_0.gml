@@ -42,11 +42,17 @@ if input.left && input.down
 xpos = x/room_width;
 ypos = y/room_height;
 
-if(layer_exists("Backgrounds_2"))
+if(layer_exists("Backgrounds_b"))
 {
-		layer_x("Backgrounds_2", lerp(0,room_width-sprite_get_width(sB),xpos));
+		layer_x("Backgrounds_b", lerp(0,room_width-sprite_get_width(sCalque_B),xpos));
+		layer_y("Backgrounds_b", lerp(0,room_height-sprite_get_height(sCalque_B),ypos));
 }
 
-show_debug_message(lerp(0,room_width-sprite_get_width(sB),xpos));
-show_debug_message(string( x) + "boat");
+if(layer_exists("Backgrounds_c"))
+{
+		layer_x("Backgrounds_c", lerp(0,room_width-sprite_get_width(sCalque_C),xpos));
+		layer_y("Backgrounds_c", lerp(0,room_height-sprite_get_height(sCalque_C),ypos));
+}
+
+
 

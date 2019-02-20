@@ -175,14 +175,6 @@
             }
         },
         {
-            "Key": "a40d48ed-73cf-4944-9f6b-3804d3eaefe5",
-            "Value": {
-                "id": "771d0d0d-e8b5-4c30-a904-f12718600c76",
-                "resourcePath": "sprites\\sB\\sB.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "a41d1744-9b52-442c-b1de-4aad5d41b57e",
             "Value": {
                 "id": "4f90c6b6-54e8-4c61-a40c-2de7f2b2e1fe",
@@ -211,14 +203,6 @@
             "Value": {
                 "id": "dfd80f89-f82a-46d4-a1f4-d030bdeeac3a",
                 "resourcePath": "sprites\\sBoat_diagonally_down\\sBoat_diagonally_down.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "aebf1dcf-8547-4127-9310-d09559f8bb8f",
-            "Value": {
-                "id": "b39b525c-4875-492c-b86a-a139c0488ea6",
-                "resourcePath": "sprites\\test2\\test2.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -255,14 +239,6 @@
             }
         },
         {
-            "Key": "c257b957-c2d4-4b90-ae59-33be292ef5c3",
-            "Value": {
-                "id": "2bb8d603-57a4-4c6a-8531-9a6a0a2d922b",
-                "resourcePath": "sprites\\test1\\test1.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "a24d7675-97f3-4f70-b33d-c7e479fa25bd",
@@ -287,11 +263,35 @@
             }
         },
         {
+            "Key": "d601e5fb-a0e3-44ee-9629-cee9b066bc09",
+            "Value": {
+                "id": "416ec089-5c33-4e4d-8124-cce698965393",
+                "resourcePath": "sprites\\sMaze\\sMaze.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d992d514-4870-48cf-b7bd-f135c62af163",
+            "Value": {
+                "id": "21b63de5-5d08-41d7-bbf9-c9de5ed2b807",
+                "resourcePath": "sprites\\sCalque_A\\sCalque_A.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "df61a92c-75d7-4656-9222-43f9968c2ea9",
             "Value": {
                 "id": "82de1a28-81d7-4226-95cb-0054f7c4bc00",
                 "resourcePath": "views\\df61a92c-75d7-4656-9222-43f9968c2ea9.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e0528911-2918-4638-b74a-7cc483d2b4db",
+            "Value": {
+                "id": "94bbb307-7117-4a64-9622-1dd1e8a5c040",
+                "resourcePath": "sprites\\sCalque_B\\sCalque_B.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -311,10 +311,10 @@
             }
         },
         {
-            "Key": "f7aa1c0f-f388-410e-8519-2f4ec84f5823",
+            "Key": "fafed782-65a3-4c2d-bd6c-d95271c53a61",
             "Value": {
-                "id": "ffd59440-18d5-4f3a-bc4d-106c50b14ae2",
-                "resourcePath": "sprites\\sMaze_temp\\sMaze_temp.yy",
+                "id": "af29edcb-6972-4cf2-9be1-ea2fdbea1b9a",
+                "resourcePath": "sprites\\sCalque_C\\sCalque_C.yy",
                 "resourceType": "GMSprite"
             }
         }
