@@ -1,6 +1,8 @@
 
 //move
-
+if input.shift{
+	slow_speed = 10;
+}else slow_speed =1.5;
 
 if input.right
 {
