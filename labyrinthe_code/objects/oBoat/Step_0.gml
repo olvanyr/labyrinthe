@@ -1,42 +1,48 @@
 
 //move
 
+
 if input.right
 {
-	sprite_index = sBoat_left_right;
-	physics_apply_force(x,y,move_speed,0);
+	sprite_index = sBoat_right;
+	phy_position_x += slow_speed;
+	//physics_apply_force(x,y,move_speed,0);
 }
 if input.left
 {
-	sprite_index = sBoat_left_right;
-	physics_apply_force(x,y,-move_speed,0);
+	sprite_index = sBoat_left;
+	phy_position_x -= slow_speed;
+	//physics_apply_force(x,y,-move_speed,0);
 }
 if input.up
 {
-	sprite_index = sBoat_up_down;
-	physics_apply_force(x,y,0,-move_speed);
+	sprite_index = sBoat_up;
+	phy_position_y -= slow_speed;
+	//physics_apply_force(x,y,0,-move_speed);
 }
 if input.down
 {
-	sprite_index = sBoat_up_down
-	physics_apply_force(x,y,0,move_speed);
+	sprite_index = sBoat_down
+	phy_position_y += slow_speed;
+
+	//physics_apply_force(x,y,0,move_speed);
 }
 
 if input.right && input.up
 {
-	sprite_index = sBoat_diagonally_up;
+	sprite_index = sBoat_diagonally_up_right;
 }
 if input.right && input.down
 {
-	sprite_index = sBoat_diagonally_down;
+	sprite_index = sBoat_diagonally_down_right;
 }
 if input.left && input.up
 {
-	sprite_index = sBoat_diagonally_down;
+	sprite_index = sBoat_diagonally_up_left;
 }
 if input.left && input.down
 {
-	sprite_index = sBoat_diagonally_up;
+	sprite_index = sBoat_diagonally_down_left;
 }
 
 xpos = x/room_width;

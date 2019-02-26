@@ -39,9 +39,9 @@
     "overriddenProperties": null,
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
-    "physicsAngularDamping": 0.1,
+    "physicsAngularDamping": 0.8,
     "physicsDensity": 0.1,
-    "physicsFriction": 0.2,
+    "physicsFriction": 0.1,
     "physicsGroup": 0,
     "physicsKinematic": false,
     "physicsLinearDamping": 0.8,
@@ -103,6 +103,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": true,
-    "spriteId": "d5afbb6e-d8e9-4c18-b740-291e7ec4b31f",
+    "spriteId": "57e8b06f-d78d-4eb9-9191-058065ad3509",
     "visible": true
 }
