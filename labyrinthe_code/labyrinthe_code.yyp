@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "65835e1d-baab-4051-8f81-25cee11d3ffa",
+            "Value": {
+                "id": "da3ed33e-61f4-462d-a1c3-0da38eafc014",
+                "resourcePath": "sprites\\sea_animation_strip8\\sea_animation_strip8.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7373a88b-82d1-4c25-a54f-86ad2e30871b",
             "Value": {
                 "id": "44d91f9d-3660-4e42-8666-d5447e2686a8",
