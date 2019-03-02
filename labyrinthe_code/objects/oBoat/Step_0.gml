@@ -1,8 +1,10 @@
 
 //move
-if input.shift{
+
+/*if input.shift{
 	slow_speed = 10;
 }else slow_speed =1.5;
+*/
 
 if input.right
 {
@@ -60,6 +62,18 @@ if(layer_exists("Backgrounds_c"))
 {
 		layer_x("Backgrounds_c", lerp(0,room_width-sprite_get_width(sCalque_C),xpos));
 		layer_y("Backgrounds_c", lerp(0,room_height-sprite_get_height(sCalque_C),ypos));
+}
+
+if(layer_exists("Backgrounds_title_b"))
+{
+		layer_x("Backgrounds_title_b", lerp(0,room_width-sprite_get_width(sTitle_calque_B),xpos));
+		layer_y("Backgrounds_title_b", lerp(0,room_height-sprite_get_height(sTitle_calque_B),ypos));
+}
+
+if(layer_exists("Backgrounds_title_c"))
+{
+		layer_x("Backgrounds_title_c", lerp(0,room_width-sprite_get_width(sTitle_calque_C),xpos));
+		layer_y("Backgrounds_title_c", lerp(0,room_height-sprite_get_height(sTitle_calque_C),ypos));
 }
 
 
