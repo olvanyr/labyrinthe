@@ -1,0 +1,1 @@
+sound = aText_40;
