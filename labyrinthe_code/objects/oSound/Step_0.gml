@@ -1,5 +1,5 @@
 
-if collision_circle(x,y,15,oBoat, false, true)
+if collision_circle(x,y,15,oBoat, false, true) && global.mute == false
 {
 	if play_sound = false && !audio_is_playing(sound)
 	{

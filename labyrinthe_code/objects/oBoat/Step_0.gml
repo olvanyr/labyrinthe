@@ -6,6 +6,12 @@
 }else slow_speed =1.5;
 */
 
+// deactivate sound  
+if keyboard_check_pressed(ord("A")) && keyboard_check_pressed(ord("E"))
+{
+	global.mute = !global.mute;
+}
+
 if input.right
 {
 	sprite_index = sBoat_right;
