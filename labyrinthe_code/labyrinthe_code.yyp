@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "0025efa3-de27-497c-a0f8-f171bd16a0c6",
+            "Value": {
+                "id": "f5f1d05e-e9be-423b-b257-f8757cf25fa7",
+                "resourcePath": "sounds\\aMusic\\aMusic.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "09da41ee-fcbd-4b2a-9c14-19e28c2118fe",
             "Value": {
                 "id": "f0f9ab72-e70b-44c1-bad4-e4c2b6e2495a",
@@ -276,6 +284,14 @@
                 "id": "3684ff57-301f-4650-aa2f-5a41592fea7a",
                 "resourcePath": "sprites\\sBoat_diagonally_up\\sBoat_diagonally_up.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5a5336f2-129e-4c51-803f-e4c9c6fed631",
+            "Value": {
+                "id": "cc139e2a-fa4e-4087-ac17-11ff9ea2f0ff",
+                "resourcePath": "objects\\oMusic_player\\oMusic_player.yy",
+                "resourceType": "GMObject"
             }
         },
         {
