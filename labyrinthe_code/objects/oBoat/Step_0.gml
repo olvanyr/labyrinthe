@@ -1,10 +1,9 @@
 
-//move
-
-/*if input.shift{
-	slow_speed = 10;
-}else slow_speed =1.5;
-*/
+//restart game
+if input.start
+{
+	room_goto(room0);	
+}
 
 // deactivate sound  
 if keyboard_check_pressed(ord("A")) && keyboard_check_pressed(ord("E"))
