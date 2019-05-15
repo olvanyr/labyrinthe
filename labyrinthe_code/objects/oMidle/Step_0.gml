@@ -1,11 +1,16 @@
-if collision_circle(x,y,15,oBoat,false,true) && !audio_is_playing(aText_22) && toggle
+if collision_circle(x,y,15,oBoat,false,true) && !audio_is_playing(aText_22) && toggle && !global.mute
 {
 	fade = true;
 	toggle = false;
 	audio_play_sound(aText_22,5,false);	
 }
 
-if  !audio_is_playing(aText_22) && fade = true
+if global.mute && collision_circle(x,y,15,oBoat,false,true)
+{
+	toggle = false;
+}
+
+if  !audio_is_playing(aText_22) && toggle == false
 {
 	alpha -= 0.005;
 	if alpha < 0 alpha = 0;

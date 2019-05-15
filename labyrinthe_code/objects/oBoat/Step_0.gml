@@ -5,12 +5,16 @@ if input.start
 	room_goto(room0);	
 }
 
+if keyboard_check_pressed(vk_shift)
+{
+	slow_speed = 20;
+}
 // deactivate sound  
 if keyboard_check_pressed(ord("A")) && keyboard_check_pressed(ord("E"))
 {
 	global.mute = !global.mute;
 }
-
+show_debug_message(global.mute);
 if input.right
 {
 	sprite_index = sBoat_right;

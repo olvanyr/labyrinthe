@@ -1,1 +1,0 @@
-sound = aText_22;
