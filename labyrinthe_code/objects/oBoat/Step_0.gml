@@ -14,6 +14,7 @@ if keyboard_check_pressed(ord("A")) && keyboard_check_pressed(ord("E"))
 {
 	global.mute = !global.mute;
 }
+
 show_debug_message(global.mute);
 if input.right
 {
